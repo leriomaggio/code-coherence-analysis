@@ -1,0 +1,10 @@
+I commenti vengono indicizzati, applicando dei filtri standard, quindi quando
+si ricerca un termine di questi commenti, bisogna utilizzare l'analizzatore
+standard per il parsing della query.
+
+Il codice viene indicizzato, senza applicazione di alcun filtro, ma eliminado
+solo i caratteri non alafanumerici, lasciando intatte, maiuscole e minuscole.
+Quindi quando si ricercano non bisogna applicare ad esso nessun filtro.
+
+I file vengono indicizzati senza l'applicazione di nessun filtro, quindi
+deve essere compito nostro avere un file normalizzato!(vedere nn è cosi)
