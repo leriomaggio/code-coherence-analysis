@@ -1,4 +1,4 @@
-name: code_comments_analysis
+name: coherence_analysis
 dependencies:
 - bokeh=0.10.0=py35_0
 - certifi=14.05.14=py34_0
