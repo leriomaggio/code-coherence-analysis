@@ -16,10 +16,13 @@ from sklearn.datasets.base import Bunch
 from scipy.sparse import csr_matrix
 import numpy as np
 
-from coherence_dataset.settings import COHERENT, NOT_COHERENT
-from coherence_dataset.models import Example
-from source_code_analysis.models import SoftwareProject
-from django.db.models import Q
+try:
+    from coherence_dataset.settings import COHERENT, NOT_COHERENT
+    from coherence_dataset.models import Example
+    from source_code_analysis.models import SoftwareProject
+    from django.db.models import Q
+except ImportError:
+    pass
 
 import codecs
 import pickle
