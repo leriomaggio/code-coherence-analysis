@@ -50,4 +50,4 @@ six==1.10.0
 terminado==0.5
 tornado==4.2.1
 traitlets==4.0.0
-Werkzeug==0.10.4
+Werkzeug==0.15.3
